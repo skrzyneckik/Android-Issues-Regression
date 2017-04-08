@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar"/>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- Scroll bar had been added to style just to simplify reproducing issue 254935. -->
+        <item name="android:scrollbars">horizontal</item>
+    </style>
+
+</resources>
